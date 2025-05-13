@@ -1,0 +1,39 @@
+[
+    {
+        "tipo": "O+",
+        "nivel": "estavel"
+    },
+    {
+        "tipo": "A+",
+        "nivel": "estavel"
+    },
+    {
+        "tipo": "AB+",
+        "nivel": "estavel"
+    },
+    {
+        "tipo": "B+",
+        "nivel": "estavel"
+    },
+    {
+        "tipo": "O-",
+        "nivel": "estavel"
+    },
+    {
+        "tipo": "A-",
+        "nivel": "estavel"
+    },
+    {
+        "tipo": "AB-",
+        "nivel": "estavel"
+    },
+    {
+        "tipo": "B-",
+        "nivel": "critico"
+    },
+    {
+        "horario": "2025-05-13",
+        "cidade": "S\u00e3o Paulo - SP",
+        "estoque": "Funda\u00e7\u00e3o_Pr\u00f3_Sangue"
+    }
+]
