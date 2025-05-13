@@ -1,0 +1,19 @@
+name: Daily Pipeline
+
+on:
+  schedule:
+    - cron: '0 12 * * *'  # Executa todos os dias ao meio-dia UTC
+
+jobs:
+  run-pipeline:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checar código do repositório
+        uses: actions/checkout@v2
+      
+      - name: Rodar Script de Pipeline
+        run: |
+          # Aqui você pode rodar o script que deseja
+          # Por exemplo:
+          python3 main.py
