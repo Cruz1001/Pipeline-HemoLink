@@ -2,4 +2,4 @@ sqlalchemy
 bs4
 requests
 python-dotenv
-
+psycopg2-binary
