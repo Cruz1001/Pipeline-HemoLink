@@ -10,3 +10,10 @@ class Hemocentro(Base):
     cidade = Column(String(255), nullable=False)
     tipo = Column(String(255), nullable=False)
     nivel = Column(String(255), nullable=False)
+
+class Hospital(Base):
+    __tablename__ = 'hospital'
+    
+    id = Column(Integer, primary_key=True, index=True)
+    nome = Column(String(255), nullable=False)
+    hemocentro = Column(String(255), nullable=False)
